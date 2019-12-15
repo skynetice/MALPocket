@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/layoutback"
+    tools:context=".MainActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#fff"
+        app:civ_border_width="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"/>
+
+    <Button
+        android:id="@+id/button_profile_id"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/profile_image"
+        android:background="#00BCD4"
+        android:textColor="#fff"
+        android:layout_marginTop="36dp"
+        android:text="@string/profile_button" />
+
+    <Button
+        android:id="@+id/button_coffee_id"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="@string/news_button"
+        android:layout_alignStart="@id/button_profile_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/button_profile_id"
+        android:background="#00BCD4"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button_gallery_id"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="@string/search_button"
+        android:layout_alignEnd="@id/button_profile_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/button_profile_id"
+        android:background="#00BCD4"
+        android:textColor="#fff" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyAnimeList Pocket App</string>
+    <string name="profile_button">Profile</string>
+    <string name="news_button">List Anime</string>
+    <string name="search_button">Streaming Anime</string>
+    <string name="back_button">Back to Home</string>
+
+    <!-- profile activity -->
+    <string name="profile_name">Name : </string>
+    <string name="profile_name_text">Muhammad Rhayhan Akbar</string>
+    <string name="profile_nim">NIM : </string>
+    <string name="profile_nim_text">09031281722034</string>
+    <string name="profile_class">Class : </string>
+    <string name="profile_class_text">SI R 5B</string>
+    <string name="profile_faculty">Faculty : </string>
+    <string name="profile_faculty_text">Computer Science</string>
+    <string name="profile_college">College : </string>
+    <string name="profile_college_text">Sriwijaya University</string>
+
+    <!-- Lorem ipsum -->
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A iaculis at erat pellentesque adipiscing. Auctor urna nunc id cursus metus aliquam eleifend. Amet purus gravida quis blandit turpis cursus in hac. Enim facilisis gravida neque convallis a cras. Odio euismod lacinia at quis risus sed. Gravida neque convallis a cras semper auctor neque vitae tempus. Ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae. Dignissim sodales ut eu sem integer vitae justo. Molestie at elementum eu facilisis. Massa tempor nec feugiat nisl pretium fusce id. Massa id neque aliquam vestibulum morbi blandit cursus risus at. Adipiscing elit ut aliquam purus sit amet. Lectus arcu bibendum at varius vel. Mi bibendum neque egestas congue quisque egestas diam. Eu sem integer vitae justo eget magna fermentum. Lectus nulla at volutpat diam ut venenatis tellus. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Cras sed felis eget velit aliquet sagittis.</string>
+
+</resources>
